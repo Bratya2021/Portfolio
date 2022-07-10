@@ -341,10 +341,43 @@ background-blend-mode: screen, overlay, hard-light, normal;
   padding: 0 48px;
 }
 
-/* @media screen and (min-width :450px) {
-    .sidebar{
-        display: none;
-    }
-} */
+@media only screen and (max-width: 600px) {
+  .bio h2{
+    font-size: 20px;
+    text-align: left;
+  }
 
-/* 
+  .bio h1{
+    color: rgb(229, 255, 0);
+  }
+
+  .bio {
+    width:fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .bioskill{
+    padding: 2px;
+  }
+
+  object {
+    display: none;
+  }
+
+  .devinfo{
+    width: fit-content;
+  }
+
+  .container p{
+    text-align: start;
+  }
+
+  .info{
+    margin: 10px;
+  }
+
+  .devpic.avatar{
+    display: none;
+  }
+}
